@@ -9,6 +9,7 @@
 */
 
 #include <LEDEffect.h>
+LEDEffect led1(10);
 LEDEffect led2(13);	// Use onboard LED
 unsigned long time = 0;
 int ledState = 0;
